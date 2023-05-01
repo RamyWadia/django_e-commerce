@@ -44,7 +44,7 @@ h6 {
 }
 
 #cart-total {
-    display: block;
+    display: inline;
     text-align: center;
     color: #fff;
     background-color: red;
@@ -52,7 +52,10 @@ h6 {
     height: 25px;
     border-radius: 50%;
     font-size: 14px;
+    padding: 3px;
+    margin-left: 15px;
 }
+
 
 .col-lg-4,
 .col-lg-6,
@@ -107,10 +110,4 @@ h6 {
 
 .hidden {
     display: none !important;
-}
-
-#cart-total {
-    display: inline;
-    padding: 3px;
-    margin-left: 15px;
 }
